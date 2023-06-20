@@ -12,12 +12,18 @@ body{
     list-style-type: none;
     display: inline-flex;
     margin-right: 15px;
+    border-bottom-color: #695DD8;
 }
+#navbar li a{
+    text-decoration: none;
+    color: white;
+}
+/*.UnderlineNav-item.selected, .UnderlineNav-item[aria-current]:not([aria-current=false]), .UnderlineNav-item[role=tab][aria-selected=true]*/
 #home{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 5% 0 5% 0;
+    margin: 5% 0 10% 0;
 }
 h1{
     font-weight: 600;
@@ -27,7 +33,7 @@ h1{
 }
 .home-div{
     width: 50%;
-    margin-left: 10%;
+    margin-left: 8%;
     /*text-align: center;*/
 }
 #occupation{
@@ -45,6 +51,29 @@ h1{
     border-style: none;
     margin-top: 2%;
 }
+#circle-img{
+    display: block;
+    border-radius: 60%;
+    overflow: hidden;
+    margin-right: 10%;
+    width: 450px;
+    height: 490px;
+}
 #dandsimg{
-    height: 400px;
+    width: 100%;
+}
+#about-me{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5% 0 10% 0;
+}
+#block{
+    background-color: #695DD8;
+    width: 80%;
+    padding: 2%;
+    border-radius: 10px;
+}
+h2{
+    font-weight: 500;
 }
