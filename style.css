@@ -130,6 +130,7 @@ h2{
 }
 .box:hover{
     box-shadow: 15px 15px 0px 0px #695DD8;
+    transition: 0.2s;
 }
 #jsimg{
     margin-top: 30px;
@@ -167,13 +168,19 @@ h2{
     height: 80px;
     border-radius: 10px;
     box-shadow: 15px 15px 0px 0px #695DD8;
+    display: inline-flex;
 }
+
+form{
+    width: 800px;
+}
+
 #message{
     border-style: none;
-    width: 90%;
+    width: 80%;
     font-family: "Raleway";
     font-size: 20px;
-    margin: 28px;
+    margin: 28px 0px 28px;
 }
 #sm{
     margin-top: 50px;
@@ -185,4 +192,8 @@ h2{
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+#send{
+    height: 30px;
+    margin: 25px 28px 28px 28px;
 }
