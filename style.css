@@ -197,3 +197,30 @@ form{
     height: 30px;
     margin: 25px 28px 28px 28px;
 }
+
+/*Carrosel*/
+.slider {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    transition: .2s;
+}
+#prev-button,
+#next-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+#prev-button {
+    left: 5px;
+}
+
+#next-button {
+    right: 5px;
+}
+
+.on{
+    opacity: 1;
+}
