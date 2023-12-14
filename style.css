@@ -17,7 +17,7 @@ body{
 }
 .line:hover{
     box-shadow: 0 2px 0 0 #695DD8;
-    transition: transform .3s ease;
+    transition: transform .4s ease;
     transform-origin: center center;
     
 }
@@ -45,23 +45,27 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 5% 0 10% 0;
+    /*margin: 6% 0 10% 0;*/
+    height: 100vh;
 }
 h1{
     font-weight: 600;
     font-size: 80px;
-    /*text-align: center;*/
     margin-bottom: 0px;
+    padding-bottom:0px ;
+    height: 80px;
 }
 .home-div{
     width: 50%;
     margin-left: 8%;
+    margin-top: 0;
     /*text-align: center;*/
 }
 #occupation{
     font-weight: 400;
     margin-top: 0px;
-    font-size: 32px;
+    font-size: 30px;
+    padding-top: 0px;
 }
 #download_cv{
     background-color: #695DD8;
@@ -71,7 +75,8 @@ h1{
     font-size: 17px;
     border-radius: 10px;
     border-style: none;
-    margin-top: 2%;
+    margin-top: 3%;
+    cursor: pointer;
 }
 #circle-img{
     display: block;
@@ -80,8 +85,8 @@ h1{
     margin-right: 10%;
     /*width: 80%;
     height: 92%;*/
-    width: 450px;
-    height: 490px;
+    width: 430px;
+    height: 410px;
 }
 #dandsimg{
     width: 100%;
@@ -94,7 +99,7 @@ h1{
 }
 #block{
     background-color: #695DD8;
-    width: 80%;
+    width: 70%;
     padding: 2%;
     border-radius: 10px;
 }
