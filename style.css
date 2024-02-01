@@ -91,6 +91,7 @@ h1{
 #dandsimg{
     width: 100%;
 }
+
 #about-me{
     justify-content: center;
     align-items: center;
@@ -100,7 +101,7 @@ h1{
 #block{
     background-color: #695DD8;
     width: 70%;
-    padding: 2%;
+    padding: 2% 6%;
     border-radius: 10px;
 }
 h2{
@@ -174,19 +175,41 @@ h2{
     border-radius: 10px;
     box-shadow: 15px 15px 0px 0px #695DD8;
     display: inline-flex;
+    padding: 0;
+}
+#pre-box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
 }
 
 form{
-    width: 800px;
+    width: 950px;
+    margin: 0;
+    height: 40px;
+    display: inline-flex;
 }
 
 #message{
     border-style: none;
-    width: 80%;
+    width: 90%;
     font-family: "Raleway";
     font-size: 20px;
-    margin: 28px 0px 28px;
+    height: 40px;
+    margin-left: 20px;
 }
+
+form>button{
+    border-style: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#send{
+    height: 28px;
+}
+
+
 #sm{
     margin-top: 50px;
 }
@@ -198,10 +221,10 @@ form{
     justify-content: center;
     align-items: center;
 }
-#send{
-    height: 30px;
-    margin: 25px 28px 28px 28px;
+.sm2:hover{
+    transition: 0.2s;
 }
+
 
 /*Carrosel*/
 .slider {
